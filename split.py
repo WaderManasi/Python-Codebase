@@ -14,9 +14,9 @@ def inPutS():
 
 
 def main():
-    t=int(input());
+    t=int(input())
     while(t>0):
-        inputS();
-        t-=1;
+        inputS()
+        t-=1
 if  __name__=='main':
-    main();
+    main()
