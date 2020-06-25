@@ -10,11 +10,11 @@ def friends_in_trouble(a_angry, b_angry):
         print("False")
 
 def main():
-    t=int(input());
+    t=int(input())
     while(t>0):
-        string=input();
-        one=string[0];
-        two=string[1];
+        string=input()
+        one=string[0]
+        two=string[1]
         if(one=='True'):
             one=True
         else:
@@ -26,6 +26,6 @@ def main():
             two=False
 
         friends_in_trouble(one,two)
-        t-=1;
+        t-=1
 if  __name__=='main':
-    main();
+    main()
