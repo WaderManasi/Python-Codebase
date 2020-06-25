@@ -10,7 +10,7 @@ def multiplicationTable(N):
 def main():
     t=int(input())
     while(t>0):
-        int n=int(input())
+        n=int(input())
         multiplicationTable(n)
         print()
         t-=1
