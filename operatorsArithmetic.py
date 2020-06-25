@@ -16,11 +16,11 @@ def print_fun(x,y):
 
 
 def main():
-    t=int(input());
+    t=int(input())
     while(t>0):
-        x=int(input());
-        y=int(input());
-        print_fun(x,y);
-        t-=1;
+        x=int(input())
+        y=int(input())
+        print_fun(x,y)
+        t-=1
 if  __name__=='main':
-    main();
+    main()
