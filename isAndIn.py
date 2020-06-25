@@ -13,7 +13,7 @@ def number_present(arr,n):
 
 
 def main():
-    t=int(input());
+    t=int(input())
     while(t>0):
         arr=input()
         arr=arr.split(" ")
@@ -30,6 +30,6 @@ def main():
                 print("True")
             else:
                 print("False")
-        t-=1;
+        t-=1
 if  __name__=='main':
-    main();
+    main()
