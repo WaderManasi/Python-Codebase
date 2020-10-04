@@ -1,5 +1,4 @@
 #Calculate sum of all array elements present in a array
-
 array = input("\nEnter array elements: ").split()
 
 sum = 0
